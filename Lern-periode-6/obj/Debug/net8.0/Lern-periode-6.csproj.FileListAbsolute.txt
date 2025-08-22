@@ -1,0 +1,14 @@
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\bin\Debug\net8.0\Lern-periode-6.exe
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\bin\Debug\net8.0\Lern-periode-6.deps.json
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\bin\Debug\net8.0\Lern-periode-6.runtimeconfig.json
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\bin\Debug\net8.0\Lern-periode-6.dll
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\bin\Debug\net8.0\Lern-periode-6.pdb
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.AssemblyInfoInputs.cache
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.AssemblyInfo.cs
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.csproj.CoreCompileInputs.cache
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.dll
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\refint\Lern-periode-6.dll
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.pdb
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\Lern-periode-6.genruntimeconfig.cache
+C:\Users\Amar0\source\repos\Lern-periode-6\Lern-periode-6\obj\Debug\net8.0\ref\Lern-periode-6.dll

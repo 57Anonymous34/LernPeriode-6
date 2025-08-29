@@ -7,8 +7,10 @@
 1. Für welches der drei Projekte haben Sie sich entschieden?
    Das erste Projekt.
 2. Wie passen Sie dieses Projekt gem. Ihrer Vorlieben an?
+   Prison Break und Marvel Themen.
    
-3. Erklären Sie Ihre Projekt-Idee in einem Satz, als müssen Sie einen Investor davon überzeugen.
+4. Erklären Sie Ihre Projekt-Idee in einem Satz, als müssen Sie einen Investor davon überzeugen.
+   Man kann einen Held aussuchen und dann muss man mit einem Bösewicht kämpfen.
 
 ## 22.8
 
@@ -24,14 +26,25 @@ Heute habe ich mich für ein cooles Projekt entschieden. Ich habe viele Klassen 
 
 ## 29.8
 
-- [ ] Alle Atribute von einer Klasse sollen angezeigt werden.
-- [ ] Die Klassen und Atributen "Waffen und Fähigkeiten" für die Charakteren erstellen.
-- [ ] Den Ablauf von dem Game aufzeichnen.
+- [X] Alle Atribute von einer Klasse sollen im Code angezeigt werden.
+- [X] Die Klassen und Atributen "Waffen und Fähigkeiten" für die Charakteren erstellen.
+- [X] Den Ablauf von dem Game aufzeichnen.
 
 📵 Eines dieser Arbeitspakete ist offline.
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben. Durch das Gespräch mit Herrn Colic habe ich jetzt einen besseren Überblick, wie mein Projekt aussehen soll. Außerdem habe ich ein bisschen mit Console.WriteLine angefangen, konnte aber noch nicht viel umsetzen.
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+## 5.9
+- [ ] Man solle einen Helden & Bösewichten auswählen können.(If-)
+- [ ] Informationen zu den Charakteren in der Konsole anzeigen
+- [ ] Der Benutzer soll den Kampf selber Starten können.(Z.B mit einem Klick)
+- [ ] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf, Auswahl von den Charakteren.)
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+
 
 

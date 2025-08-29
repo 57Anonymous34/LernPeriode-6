@@ -26,11 +26,12 @@ Heute habe ich mich für ein cooles Projekt entschieden. Ich habe viele Klassen 
 
 - [ ] Alle Atribute von einer Klasse sollen angezeigt werden.
 - [ ] Die Klassen und Atributen "Waffen und Fähigkeiten" für die Charakteren erstellen.
-- [ ] Die Infos von den Charakteren sollen angezeigt werden.
+- [ ] Den Ablauf von dem Game aufzeichnen.
 
 📵 Eines dieser Arbeitspakete ist offline.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 

@@ -18,7 +18,7 @@
 - [X] Arbeitspaket 2: Schreiben Sie eine Liste, welche Klassen und Objekte es braucht, und wie diese miteinander interagieren. Das Format ist Ihnen freigestellt, aber Sie müssen es auch bereits heute auf github laden. (Dieses AP dauert ausnahmsweise nur 15')
 - [X] Arbeitspaket 3 (Falls Sie den *maker space* besuchen, dann dürfen Sie diesen Punkt löschen. Ansonsten können Sie hier mit dem Coden beginnen, nachdem Sie sich ganz klar überlegt haben, was Ihr erster Schritt ist und den hier als AP festgehalten haben.)
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich... 
 Heute habe ich mich für ein cooles Projekt entschieden. Ich habe viele Klassen erstellt. Ich freue mich auf die Lernperiode, da man frei arbeiten kann und seine eigenen Ideen umsetzen darf. 
 
 
@@ -30,10 +30,16 @@ Heute habe ich mich für ein cooles Projekt entschieden. Ich habe viele Klassen 
 - [X] Die Klassen und Atributen "Waffen und Fähigkeiten" für die Charakteren erstellen.
 - [X] Den Ablauf von dem Game aufzeichnen.
 
-📵 Eines dieser Arbeitspakete ist offline.
+📵 Eines dieser Arbeitspakete ist offline:
 
-✍️ Heute habe ich... (50-100 Wörter)
+![Image](https://github.com/user-attachments/assets/c8759d2b-01b3-4eb3-973f-8e50bb9fae52)
+
+
+✍️ Heute habe ich... 
 Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben. Durch das Gespräch mit Herrn Colic habe ich jetzt einen besseren Überblick, wie mein Projekt aussehen soll. Außerdem habe ich ein bisschen mit Console.WriteLine angefangen, konnte aber noch nicht viel umsetzen.
+
+Das ist meine Foto das ich in diesem Offlinen arbeitspaket gemacht habe:
+
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
@@ -43,7 +49,8 @@ Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben.
 - [ ] Der Benutzer soll den Kampf selber Starten können.(Z.B mit einem Klick)
 - [ ] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf, Auswahl von den Charakteren.)
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich... 
+
 
 
 

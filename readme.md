@@ -38,7 +38,6 @@ Heute habe ich mich für ein cooles Projekt entschieden. Ich habe viele Klassen 
 ✍️ Heute habe ich... 
 Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben. Durch das Gespräch mit Herrn Colic habe ich jetzt einen besseren Überblick, wie mein Projekt aussehen soll. Außerdem habe ich ein bisschen mit Console.WriteLine angefangen, konnte aber noch nicht viel umsetzen.
 
-Das ist meine Foto das ich in diesem Offlinen arbeitspaket gemacht habe:
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
@@ -50,6 +49,7 @@ Das ist meine Foto das ich in diesem Offlinen arbeitspaket gemacht habe:
 - [ ] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf, Auswahl von den Charakteren.)
 
 ✍️ Heute habe ich... 
+
 
 
 

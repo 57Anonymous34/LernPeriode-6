@@ -44,14 +44,29 @@ Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben.
 
 ## 5.9
 - [ ] Man solle einen Helden & Bösewichten auswählen können.(If-)
-- [ ] Informationen zu den Charakteren in der Konsole anzeigen
+- [X] Informationen zu den Charakteren in der Konsole anzeigen
 - [ ] Der Benutzer soll den Kampf selber Starten können.(Z.B mit einem Klick)
-- [ ] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf, Auswahl von den Charakteren.)
+- [X] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf)
+      
+![Image (2)](https://github.com/user-attachments/assets/4343a2b4-7c46-4bc9-b7fe-d614e7daf335)
+
+
+✍️ Heute habe ich... 
+Heute habe ich mir am Anfang noch überlegt, was ich an meinem Projekt ändern könnte. Ich bin auf die Idee gekommen, dass der Nutzer am Anfang noch eine Waffe kaufen kann und zusätzlich einen Heiltrank kaufen kann, um sein Leben zu boosten. Man hat am Anfang 50 Gold, mit dem man sich Sachen kaufen kann. Man kann jetzt leider nur Hulk benutzen, da ich sonst zu viel Zeit in die Helden investiert hätte.
+
+
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+## 12.9
+- [ ] Der Kampf sollte Funktionieren(Jeder Leertasten druck sollte einen Hit machen
+- [ ] Falls der Held oder Bösewicht stirbt sollte der Kampf beendet werden.
+- [ ] Das Program sollte einen Zwischenresultat geben(Wie viel Schaden du gemacht hast oder bekommen hast)--> Damit der Nutzer einen Überblick auf den Kampf hat.
+- [ ] Anzahl Hits sollten aufgezählt werden und dann auch noch zusätzlich angezeigt werden(Der Nutzer sollte sehen können wie oft er die Leertaste gedrückt hat.
+
 
 ✍️ Heute habe ich... 
 
 
 
-
-
-
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen

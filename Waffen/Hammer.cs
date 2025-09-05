@@ -7,18 +7,31 @@ using System.Threading.Tasks;
 namespace Lern_periode_6.Waffen
 {
     class Hammer
+
     {
 
 
-        public string name;
-        public int damage;
 
 
-        public Hammer (string name, int damage)
+        public string Name;
+
+        public int Damage { get; }
+
+        public int Price { get; }
+
+        public Hammer(string name, int damage, int price)
+
         {
 
-            this.name = name;
-            this.damage = damage;
+            Name = name;
+            Damage = damage;
+            Price = price;
+
         }
+
     }
+
 }
+
+ 
+

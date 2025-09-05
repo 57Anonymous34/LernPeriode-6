@@ -11,19 +11,20 @@ namespace Lern_periode_6.Bösewicht
 
 
 
-        public string name;
-        public string weapon;
-        public string ability;
-        public int life;
-        public int damage;
+        public string Name;
+        public int Leben;
+        public int Damage;
+        public int Gold;
 
-        public Bösemann(string name, string Weapon, string ability, int life, int damage)
+        public Bösemann(string name, int leben, int damage, int gold)
+
         {
-            this.name = name;
-            this.weapon = Weapon;
-            this.ability = ability;
-            this.life = life;
-            this.damage = damage;
+
+            Name = name;
+            Leben = leben;
+            Damage = damage;
+            Gold = gold;
+
         }
     }
 }

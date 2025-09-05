@@ -1,5 +1,6 @@
-﻿using Lern_periode_6.Held;
-using Lern_periode_6.Bösewicht;
+﻿using Lern_periode_6.Bösewicht;
+using Lern_periode_6.Held;
+using Lern_periode_6.Waffen;
 using System.Linq.Expressions;
 
 
@@ -7,33 +8,216 @@ namespace Lern_periode_6
 {
     internal class Program
     {
+        static async Task TypeWriteAsync(string text, int delayMs = 50)
+        {
+            foreach (char ch in text)
+            {
+                Console.Write(ch);
+                await Task.Delay(delayMs);
+            }
+            Console.WriteLine();
+        }
+
+
         static void Main(string[] args)
         {
-            Scofield Held1 = new Scofield("Michael Scofield","Brechstange","Hochbegabt",60,10);
 
 
-            Hulk Held2 = new Hulk("Hulk", "Hammer", "Stark", 70, 15);
 
-
+            Scofield Held2 = new Scofield("Michael Scofield","Brechstange","Hochbegabt",60,10);
+            Hulk Held1 = new Hulk("Hulk", 1990, 100, 50);
             Spiderman Held3 = new Spiderman("Spiderman", "Spinnetz", "Spinnensinn", 60, 17);
 
-            Console.WriteLine($"Hallo, es gibt "Spiderman", Scofield und Halk, Was müchtest Du sein?");
-                Console.WriteLine("")
-
-            Bösemann Bösewicht1 = new Bösemann("Bösemann", "Axt", "Kuckt Böse", 50, 8);
-
-          
 
 
+
+
+            Bösemann Bösewicht1 = new Bösemann("Bösemann", 200, 50, 80);
             Silver_Surfer Bösewicht2 = new Silver_Surfer("Silver_Surfer", "Surf Board","Fliegen", 65, 18);
-
             Thanos Bösewicht3 = new Thanos("Thanos", "Goldener Handschuh", "Ultimative zerstörung", 85, 20);
 
 
 
-            // Held1.brechstange.damage += 5è
+            Heiltrank heil = new Heiltrank(30, 5);
+            Hammer hammer = new Hammer("Hammer", 4, 30);
+            Axt axt = new Axt("Axt", 2, 23);
 
-            
+
+
+            // Held1
+            Console.WriteLine("Name: " + Held1.Name);
+            Console.WriteLine("Id: " + Held1.Id);
+            Console.WriteLine("Dein Gold im Tresor:" + Held1.Gold);
+            Console.WriteLine("Afangsleben:" + Held1.Leben);
+
+            Console.WriteLine("Beovr du Anfagen kannst musst du in den Shop und dich ausrüsten!");
+            Console.WriteLine();
+            Console.WriteLine("Stats für Hammer(H):");
+            Console.WriteLine("Damage:" + hammer.Damage);
+            Console.WriteLine("Price:" + hammer.Price);
+            Console.WriteLine();
+            Console.WriteLine("----------------------------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine("Stats für Axt(A):");
+            Console.WriteLine("Damage:" + axt.Damage);
+            Console.WriteLine("Price:" + axt.Price);
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+
+
+
+            TypeWriteAsync("Welche Waffe möchtest du dir für den Anfang kaufen (H/A)?", 50);
+
+            string waffeneingabe = Console.ReadLine()?.Trim().ToUpper();
+
+            if (waffeneingabe == "H")
+            {
+
+                if (Held1.TrySpendGold(hammer.Price))
+                {
+
+                    Console.WriteLine("Glückwunsch zu deinem Kauf!");
+                    Console.WriteLine($"Gekauft: {hammer.Name} (-{hammer.Price} Gold)");
+                    Console.WriteLine("Gold jetzt:" + Held1.Gold);
+
+                }
+
+                else
+                {
+
+                    Console.WriteLine("Zu wenig Gold");
+                    return;
+
+                }
+
+            }
+
+            else if (waffeneingabe == "A")
+            {
+
+                if (Held1.TrySpendGold(axt.Price))
+                {
+
+                    Console.WriteLine("Glückwunsch zu deinem Kauf!");
+                    Console.WriteLine($"Gekauft: {axt.Name} (-{axt.Price} Gold)");
+                    Console.WriteLine("Gold jetzt:" + Held1.Gold);
+
+                }
+
+                else
+                {
+
+                    Console.WriteLine("Zu wenig Gold");
+                    return;
+
+                }
+
+            }
+
+            else
+            {
+
+                Console.WriteLine("Ungültige Eingabe");
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("----------------------------------------------------------------");
+
+
+
+
+
+
+            TypeWriteAsync($"Möchtest du auch noch einen Heiltrank(ja/nein) kaufen für {heil.Price}?", 50);
+
+            string heiltrankeingabe = Console.ReadLine();
+
+
+            if (heiltrankeingabe == "ja")
+            {
+
+                if (Held1.TrySpendGold(heil.Price))
+                {
+
+                    heil.Anwenden(Held1);
+
+                    Console.WriteLine($"Gekauft: Heiltrank (-{heil.Price} Gold)");
+                    Console.WriteLine("In deinem Tresor ist noch:" + Held1.Gold);
+
+                }
+
+            }
+
+            else
+            {
+
+                Console.WriteLine($"{Held1.Name} trinkt keinen Heiltrank.");
+
+            }
+
+            Console.WriteLine("Leben nach dem Trank:" + Held1.Leben);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("DU bist bereit für den Kampf gegen Bösemann");
+
+            Console.ResetColor();
+
+
+            int schadenProSchlag = 1;
+            string waffenName = "?";
+
+            if (waffeneingabe == "H")
+            {
+
+                schadenProSchlag = hammer.Damage;
+                waffenName = hammer.Name;
+
+            }
+
+            else if (waffeneingabe == "A")
+            {
+
+                schadenProSchlag = axt.Damage;
+                waffenName = axt.Name;
+
+            }
+
+            else
+            {
+
+                Console.WriteLine("Ungültige Eingabe. Bitte H oder A.");
+
+                return;
+
+            }
+
+
+
+
+            while ( Bösewicht1.Leben > 0 &&  Held1.Leben > 0)
+            {
+
+                var key = Console.ReadKey(intercept: true).Key;
+
+                if (key == ConsoleKey.Spacebar) ;
+            }
+
+
+
+
         }
+
+
+
+
     }
+
+
+
+
+
 }
+

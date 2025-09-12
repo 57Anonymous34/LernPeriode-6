@@ -59,10 +59,24 @@ Heute habe ich mir am Anfang noch überlegt, was ich an meinem Projekt ändern k
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
 ## 12.9
-- [ ] Der Kampf sollte Funktionieren(Jeder Leertasten druck sollte einen Hit machen
-- [ ] Falls der Held oder Bösewicht stirbt sollte der Kampf beendet werden.
-- [ ] Das Program sollte einen Zwischenresultat geben(Wie viel Schaden du gemacht hast oder bekommen hast)--> Damit der Nutzer einen Überblick auf den Kampf hat.
-- [ ] Anzahl Hits sollten aufgezählt werden und dann auch noch zusätzlich angezeigt werden(Der Nutzer sollte sehen können wie oft er die Leertaste gedrückt hat.
+- [X] Der Kampf sollte Funktionieren(Jeder Leertasten druck sollte einen Hit machen
+- [X] Falls der Held oder Bösewicht stirbt sollte der Kampf beendet werden.
+- [X] Das Program sollte einen Zwischenresultat geben(Wie viel Schaden du gemacht hast oder bekommen hast)--> Damit der Nutzer einen Überblick auf den Kampf hat.
+- [X] Anzahl Hits sollten aufgezählt werden und dann auch noch zusätzlich angezeigt werden(Der Nutzer sollte sehen können wie oft er die Leertaste gedrückt hat.
+
+
+✍️ Heute habe ich... 
+Heute habe ich weiter an meinem Projekt gearbeitet. Ich habe den Kampf zwischen den zwei Charakteren fertig programmiert. Jeder Schlag wird gezählt, und es wird ein Zwischenresultat zwischen dem Helden und dem Bösewicht angezeigt. Leider habe ich auch ein Problem: Wenn ich die Leertaste zu schnell drücke, stürzt das Programm ab und ich muss wieder von vorne beginnen. Das heisst, man muss die Leertaste langsam drücken.
+
+
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+## 19.9
+- [ ] Der Spieler kann nachdem Kampf Waffen kaufen.
+- [ ] Es soll ein Waffenmenü geben wo der Spieler die Waffen aussuchen kann.
+- [ ] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
+- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
 
 
 ✍️ Heute habe ich... 
@@ -70,3 +84,5 @@ Heute habe ich mir am Anfang noch überlegt, was ich an meinem Projekt ändern k
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+

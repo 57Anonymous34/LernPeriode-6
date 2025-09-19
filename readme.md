@@ -73,13 +73,26 @@ Heute habe ich weiter an meinem Projekt gearbeitet. Ich habe den Kampf zwischen 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
 ## 19.9
-- [ ] Der Spieler kann nachdem Kampf Waffen kaufen.
-- [ ] Es soll ein Waffenmenü geben wo der Spieler die Waffen aussuchen kann.
+- [X] Der Spieler kann nachdem Kampf Waffen kaufen.
+- [X] Es soll ein Waffenmenü geben wo der Spieler die Waffen aussuchen kann.
 - [ ] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
 - [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
 
 
-✍️ Heute habe ich... 
+✍️ Heute habe ich...
+Heute hatte ich ein probelm. Bei dem Kampf gegen den Drachen ist mein Projekt abgestürtzt. Ich konnte es aber noch verbessern. Der Spieler kann nachdem Kampf, falls er denn Gewonnen hat, neue Waffen Kaufen.
+
+
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+## 17.10
+- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
+- [ ] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
+- [ ] Nachdem Kampf gegen dem letzten Bösewicht, wird dem Spieler mittgeteilt das er das Spiel fertig gespielt.
+
+✍️ Heute habe ich...
 
 
 

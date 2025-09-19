@@ -42,6 +42,9 @@ namespace Lern_periode_6
             Heiltrank heil = new Heiltrank(30, 5);
             Hammer hammer = new Hammer("Hammer", 4, 30);
             Axt axt = new Axt("Axt", 2, 23);
+            Schwert schwert = new Schwert("Schwert", 10, 50);
+            keule Keule = new keule("Keule", 8, 40);
+            Bogen bogen = new Bogen("Bogen", 9, 45);
 
 
 
@@ -203,92 +206,111 @@ namespace Lern_periode_6
             Console.WriteLine($"Kampf gegen {Bösewicht1.Name}! Waffe: {waffenName} (DMG {schadenProSchlag})");
             Console.WriteLine("Drücke [LEERTASTE] zum Zuschlagen, [ESC] zum Abbrechen.");
 
-            while (Held1.Leben > 0 && Bösewicht1.Leben > 0)
+            bool abgebrochen = false;
+            bool hatGewonnen = false;
+
+            try
             {
-
-                int hits = 0, dealt = 0;
-                var sw = Stopwatch.StartNew();
-
-                while (sw.Elapsed < TimeSpan.FromSeconds(5))
+                while (Held1.Leben > 0 && Bösewicht1.Leben > 0)
                 {
+                    int hits = 0, dealt = 0;
+                    var sw = Stopwatch.StartNew();
 
-                    if (Console.KeyAvailable)
+                    while (sw.Elapsed < TimeSpan.FromSeconds(5))
                     {
-
-                        var key = Console.ReadKey(intercept: true).Key;
-
-                        if (key == ConsoleKey.Escape) { Console.WriteLine("Kampf abgebrochen."); return; }
-
-                        if (key == ConsoleKey.Spacebar)
+                        if (Console.KeyAvailable)
                         {
+                            var key = Console.ReadKey(intercept: true).Key;
 
-                            hits++;
-                            dealt += schadenProSchlag;
-                            Console.Write($"\rTreffer: {hits}, geplanter Schaden: {dealt}     ");
+                            if (key == ConsoleKey.Escape)
+                            {
+                                abgebrochen = true;
+                                break;
+                            }
 
+                            if (key == ConsoleKey.Spacebar)
+                            {
+                                hits++;
+                                dealt += schadenProSchlag;
+                                Console.Write($"\rTreffer: {hits}, geplanter Schaden: {dealt}   ");
+                            }
                         }
 
+                        Thread.Sleep(10);
                     }
 
-                    System.Threading.Thread.Sleep(10);
+                    Console.WriteLine();
+                    if (abgebrochen) break;
+                    Bösewicht1.Leben = Math.Max(0, Bösewicht1.Leben - dealt);
 
+                    Console.WriteLine($"Deine Treffer: {hits}  ->  Schaden: {dealt}");
+                    Console.WriteLine($"{Bösewicht1.Name} HP: {Bösewicht1.Leben}");
+
+
+                    if (Bösewicht1.Leben <= 0)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"{Bösewicht1.Name} ist besiegt!");
+                        Console.ResetColor();
+
+                        if (Bösewicht1.Gold > 0)
+                        {
+                            Held1.AddGold(Bösewicht1.Gold);
+                            Console.WriteLine($"+{Bösewicht1.Gold} Gold Beute");
+                            Bösewicht1.Gold = 0;
+                        }
+
+                        hatGewonnen = true;
+                        break;
+                    }
+
+                    Held1.Leben = Math.Max(0, Held1.Leben - Bösewicht1.Damage);
+                    Console.WriteLine($"{Bösewicht1.Name} schlägt zurück! -{Bösewicht1.Damage} HP  ->  Dein Leben: {Held1.Leben}");
+                    Console.WriteLine("-------------------------------------------------------------");
+
+
+                    if (Held1.Leben <= 0)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Du wurdest besiegt…");
+                        Console.ResetColor();
+                        break;
+                    }
                 }
-
-                Console.WriteLine();
-
-                Bösewicht1.Leben -= dealt;
-
-                if (Bösewicht1.Leben < 0) Bösewicht1.Leben = 0;
-
-                Console.WriteLine($"Deine Treffer: {hits}  ->  Schaden: {dealt}");
-                Console.WriteLine($"Drache HP: {Bösewicht1.Leben}");
-
-
-                if (Bösewicht1.Leben <= 0)
-                {
-
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Der Drache ist besiegt!");
-                    Console.ResetColor();
-
-                    Held1.AddGold(Bösewicht1.Gold);
-                    Console.WriteLine($"+{Bösewicht1.Gold} Gold Beute");
-
-                    Bösewicht1.Gold = 0;
-                    break;
-
-                }
-
-
-                Held1.Leben -= Bösewicht1.Damage;
-
-                if (Held1.Leben < 1) Held1.Leben = 0;
-
-                Console.WriteLine($"Der Drache schlägt zurück! -{Bösewicht1.Damage} HP  ->  Dein Leben: {Held1.Leben}");
-                Console.WriteLine("-------------------------------------------------------------");
-
-
-                if (Held1.Leben <= 1)
-                {
-
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Du wurdest besiegt…");
-                    Console.ResetColor();
-
-                }
-
-
-
-                Console.WriteLine();
-                Console.WriteLine("Dein Gold im Tresor beträgt:" + Held1.Gold);
-
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"\n[Fehler] {ex.GetType().Name}: {ex.Message}");
+                Console.WriteLine(ex.StackTrace);
+                Console.ResetColor();
             }
 
+            if (hatGewonnen && !abgebrochen)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Dein Gold im Tresor beträgt: " + Held1.Gold);
+                Console.WriteLine("Du hast neue Waffen freigeschaltet!");
+
+                Console.WriteLine();
+                Console.WriteLine("Stats für Schwert (S):  DMG " + schwert.Damage + "  Preis " + schwert.Price);
+                Console.WriteLine("Stats für Keule  (K):  DMG " + Keule.Damage + "  Preis " + Keule.Price);
+                Console.WriteLine("Stats für Bogen  (B):  DMG " + bogen.Damage + "  Preis " + bogen.Price);
+                Console.Write("Waffe kaufen? (S/K/B/N): ");
+                var wahl = Console.ReadLine()?.Trim().ToUpperInvariant();
+
+                Console.WriteLine("Kein Kauf getätigt.");
+            }
+            else if (abgebrochen)
+            {
+                Console.WriteLine("Kampf abgebrochen.");
+            }
         }
-
     }
-
 }
+
+
+            
 
  
 

@@ -88,8 +88,8 @@ Heute hatte ich ein probelm. Bei dem Kampf gegen den Drachen ist mein Projekt ab
 
 
 ## 17.10
-- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
-- [ ] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
+- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Heilungstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
+- [ ] Der Bösewicht hat mehr Leben und macht zusätzlich mehr Schaden als der vorherige.
 - [ ] Nachdem Kampf gegen dem letzten Bösewicht, wird dem Spieler mittgeteilt das er das Spiel fertig gespielt.
 
 ✍️ Heute habe ich...
@@ -97,5 +97,6 @@ Heute hatte ich ein probelm. Bei dem Kampf gegen den Drachen ist mein Projekt ab
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 

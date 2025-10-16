@@ -88,15 +88,32 @@ Heute hatte ich ein probelm. Bei dem Kampf gegen den Drachen ist mein Projekt ab
 
 
 ## 17.10
-- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Heilungstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
-- [ ] Der Bösewicht hat mehr Leben und macht zusätzlich mehr Schaden als der vorherige.
-- [ ] Nachdem Kampf gegen dem letzten Bösewicht, wird dem Spieler mittgeteilt das er das Spiel fertig gespielt.
+- [X] Nachdem der Spieler die Sachen gekauft hat(Waffen, Heilungstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
+- [X] Der Bösewicht hat mehr Leben und macht zusätzlich mehr Schaden als der vorherige.
+- [X] Nachdem Kampf gegen dem letzten Bösewicht, wird dem Spieler mittgeteilt das er das Spiel fertig gespielt.
 
 ✍️ Heute habe ich...
+Ich bin heute endlich meinem Projekt fertig geworden. Ich bin sehr zufrieden mit dem Ergebnis. Diese Lernperiode hat mir sehr spass gemacht, ich habe sehr vieles neues gelernt und habe auch mehr wissen über C#.
+
+
+
+
+## Mein fertiges Projekt
+
+
+
+
+https://github.com/user-attachments/assets/c2bd5587-e41c-4836-ab4a-de092a046c24
+
+
+
+
+
 
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
 

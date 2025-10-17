@@ -43,9 +43,9 @@ Heute habe ich alle Klassen und Objekte mit ihren Attributen fertig geschrieben.
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
 ## 5.9
-- [ ] Man solle einen Helden & Bösewichten auswählen können.(If-)
+- [X] Man solle einen Helden & Bösewichten auswählen können.(If-)
 - [X] Informationen zu den Charakteren in der Konsole anzeigen
-- [ ] Der Benutzer soll den Kampf selber Starten können.(Z.B mit einem Klick)
+- [X] Der Benutzer soll den Kampf selber Starten können.(Z.B mit einem Klick)
 - [X] Eine Skizze vom Projekt wie es mir vorstellen könnte.(Kampf)
       
 ![Image (2)](https://github.com/user-attachments/assets/4343a2b4-7c46-4bc9-b7fe-d614e7daf335)
@@ -75,8 +75,8 @@ Heute habe ich weiter an meinem Projekt gearbeitet. Ich habe den Kampf zwischen 
 ## 19.9
 - [X] Der Spieler kann nachdem Kampf Waffen kaufen.
 - [X] Es soll ein Waffenmenü geben wo der Spieler die Waffen aussuchen kann.
-- [ ] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
-- [ ] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
+- [X] Es soll auch ein Schadenstrank geben, indem der Spieler es dem Bösewicht geben kann.
+- [X] Nachdem der Spieler die Sachen gekauft hat(Waffen, Schadenstrank), muess er gegen den neuen Bösewicht kämpfen.(Der neue Bösewicht ist stärker als der vorherige)
 
 
 ✍️ Heute habe ich...
@@ -101,18 +101,38 @@ Ich bin heute endlich meinem Projekt fertig geworden. Ich bin sehr zufrieden mit
 ## Mein fertiges Projekt
 
 
+# Kampf 1.
 
-
-https://github.com/user-attachments/assets/c2bd5587-e41c-4836-ab4a-de092a046c24
-
-
-
+https://github.com/user-attachments/assets/0c6702f1-277a-4fd0-8f59-571929518dc0
 
 
 
+# Kampf 2.
 
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+https://github.com/user-attachments/assets/1ac9df75-020a-4cb2-ba06-c979cf149713
+
+
+
+## Beschreibung
+
+Der Nutzer des Spieles wird direkt am Anfang befragt, welche Waffe er kaufen möchte. Der Nutzer hat am Anfang immer Gold. Er kann sich für eine Axt und einen Hammer entscheiden. Zudem kann er auch noch einen Zaubertrank kaufen, was sein Leben erhöht. Er muss gegen den Drachen kämpfen. Durch jedes Drücken der Leertaste gibt der Held dem Bösewicht einen Schaden. Ein Hit ergibt 8 oder 10, es kommt darauf an, welche Waffe man zu Beginn dieses Spieles gekauft hat. Nach dem Kampf wird dir angezeigt, ob du gewonnen oder verloren hast. Wenn du verloren hast, musst du wieder von vorne beginnen. Wenn du gewinnst, kommst du weiter und bekommst zusätzlich Gold, um dich für den nächsten Kampf vorzubereiten. Der zweite Kampf hat denselben Ablauf. Du kannst dir neue Waffen holen, wieder einen Zaubertrank, und dann musst du gegen den letzten Bösewicht kämpfen. Dieser Bösewicht hat mehr Leben und macht mehr Schaden als der vorherige. Wenn du diesen Kampf gewonnen hast, wird dir mitgeteilt, dass du das Spiel fertig gespielt hast. Wenn du verlierst, musst du wieder von vorne beginnen.
+
+
+
+## Reflexion
+Ich habe mit einem Spiel angefangen und in dieser Lernperiode viel daran gearbeitet. Am Anfang hatte ich ein paar Probleme mit dem Kampf, weil das Programm manchmal abgestürzt ist. Nach ein paar Änderungen hat es aber besser funktioniert. Ich habe gelernt, wie man Klassen richtig verbindet und den Ablauf mit If-Abfragen steuert. Neu habe ich auch eingebaut, dass man Gold bekommt und damit Waffen oder Tränke kaufen kann. Es hat Spass gemacht zu sehen, wie das Spiel immer besser wurde. Insgesamt bin ich zufrieden mit meinem Ergebnis.
+
+
+
+
+
+
+
+
+
+
 
 
 
